@@ -1,0 +1,95 @@
+body{
+    background: #edf0f2;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+.App{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+nav ul li a{
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 10px;
+}
+
+h2 {
+    color:black;
+    font-size: 2rem;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post {
+    width: 100%;
+    max-width: 350px;
+    margin: 10px;
+    background: #fcfdff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.post img {
+    width: 100%;
+}
+form {
+    width: 100%;
+    max-width: 400px;
+}
+
+form *{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+}
+
+form label {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+form select {
+    background: none;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #ffffff;
+}
+
+form input[type="submit"] {
+    margin-top: 10px;
+    width: 100px;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    background: #66c2ff;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
